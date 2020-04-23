@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="animate.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/hzn5qzj.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
-        <div class="flex flex-row">
-            <div class="bg-mailly max-w-half p-10">
+        <div class="md:flex md:flex-row pt-8">
+            <div class="bg-mailly md:max-w-half p-10">
                 <img src="img/eu-3.jpg" alt="France">
             </div>
-            <div class="max-w-half text-center flex flex-row px-8">
+            <div class="md:max-w-half text-center flex flex-row px-8">
                 <div class="w-full text-center">
-                    <div class="font-script text-2xl text-blush text-center p-0">
+                    <div class="font-script text-2xl text-blush text-center p-5 md:p-2">
                         France
                     </div>
-                    <div class="font-serif text-md text-sky p-0 text-left">
-                        ART AND CULTURE <br> IN THE CITY OF LIGHT
+                    <div class="font-serif text-sm lg:text-md text-sky p-0 text-center md:text-left">
+                        ART AND CULTURE IN THE CITY OF LIGHT
                     </div>
                 </div>
             </div>
@@ -29,10 +31,9 @@
             <div class="flex">
                 <div class="w-1/2 p-4 relative">
                     <img src="img/monet-3.jpg" alt="Monet">
-                    <div class="absolute top-1/2 left-1/2 -mr-1/2 text-center -translate-y-1/2 -translate-x-1/2">
+                    <!-- <div class="absolute top-1/2 left-1/2 -mr-1/2 text-center -translate-y-1/2 -translate-x-1/2">
                         INSPIRATION
-                    </div>
-                    
+                    </div> -->             
                 </div>
                 <div class="w-1/2 p-4">
                     <img src="img/eu-32.jpg" alt="France">
@@ -48,6 +49,90 @@
                 </div>
             </div>
             
+        </div>
+
+        <div class="text-center w-full font-sans font-thin tracking-wider text-sm pt-8">
+            INSPIRATION
+        </div>
+        
+        <div class="md:grid md:grid-cols-12 pt-8">
+            <div class="col-start-6 xl:col-start-7 col-end-13 bg-mailly p-10 md:p-16 xl:p-20">
+                <img src="img/degas-1.jpg" alt="Degas">
+            </div>
+            <div class="col-start-1 col-end-6 px-8 absolute">
+                <div class="font-serif text-md text-center md:text-mg lg:text-lg xl:text-xl text-sky italic md:text-left p-5 md:p-2">
+                    IMPRESSIONISM
+                </div>
+                <div class="md:w-1/3 xl:w-5/12">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laboriosam tempore voluptas placeat earum quod. Aspernatur, qui illum saepe rem perspiciatis beatae! Fugiat eius modi ullam praesentium veniam alias quam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloremque eos necessitatibus nemo dicta fugit minus, autem dignissimos dolore fuga quae, molestiae consectetur tenetur? Deleniti labore maiores explicabo vel doloremque!
+                </div>
+                <div class="md:w-1/3 xl:w-1/2">
+                    <img src="img/monet-3a.jpg" alt="Monet" class="p-8">
+                </div>
+            </div>
+        </div>
+
+        <div class="md:grid md:grid-cols-12 pt-64 md:pt-8">
+            <div class="col-start-1 col-end-7 bg-sky p-10 md:p-16 xl:p-20">
+                <img src="img/eu-23.jpg" alt="Metro sign">
+            </div>
+            <div class="w-full px-8 md:absolute">
+                <div class="font-serif text-md text-center lg:text-lg xl:text-xl text-blush italic md:text-center p-5 md:p-2">
+                    LIFESTYLE
+                </div>
+            </div>
+            <div class="col-start-7 col-end-13 px-8">
+                <div class="md:pt-20 lg:pt-32 xl:pt-40">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laboriosam tempore voluptas placeat earum quod. Aspernatur, qui illum saepe rem perspiciatis beatae! Fugiat eius modi ullam praesentium veniam alias quam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloremque eos necessitatibus nemo dicta fugit minus, autem dignissimos dolore fuga quae, molestiae consectetur tenetur? Deleniti labore maiores explicabo vel doloremque!
+                </div>
+                <div class="md:flex md:flex-row">
+                    <img src="img/eu-18.jpg" alt="Bike" class="p-8">
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center w-full font-sans font-thin tracking-wider text-sm pt-8">
+            PLACES
+        </div>
+
+        <div class="md:grid md:grid-cols-12 pt-8">
+            <div class="col-start-1 col-end-7 px-8">
+                <div class="font-serif text-md text-center md:text-lg lg:text-xl xl:text-2xl text-sky italic p-5 md:p-2">
+                    PARIS
+                </div>
+                <div class="">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laboriosam tempore voluptas placeat earum quod. Aspernatur, qui illum saepe rem perspiciatis beatae! Fugiat eius modi ullam praesentium veniam alias quam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloremque eos necessitatibus nemo dicta fugit minus, autem dignissimos dolore fuga quae, molestiae consectetur tenetur? Deleniti labore maiores explicabo vel doloremque!
+                </div>
+                <div class="">
+                    <img src="img/eu-32.jpg" alt="Paris" class="p-8">
+                </div>
+            </div>
+            <div class="col-start-7 col-end-13 bg-blush p-10 md:p-16 xl:p-20">
+                <img src="img/eu-11.jpg" alt="Statue">
+            </div>
+        </div>
+
+        <div class="md:grid md:grid-cols-12 pt-8">
+            <div class="col-start-1 col-end-7 bg-mailly p-10 md:p-16 xl:p-20">
+                <img src="img/eu-10.jpg" alt="Painting">
+            </div>
+            <div class="w-full px-8 absolute">
+                <div class="font-serif text-md text-center lg:text-lg xl:text-xl text-blush italic md:text-center p-5 md:p-2">
+                    VERSAILLES
+                </div>
+            </div>
+            <div class="col-start-7 col-end-13 px-8">
+                <div class="pt-20 lg:pt-32 xl:pt-40">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laboriosam tempore voluptas placeat earum quod. Aspernatur, qui illum saepe rem perspiciatis beatae! Fugiat eius modi ullam praesentium veniam alias quam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloremque eos necessitatibus nemo dicta fugit minus, autem dignissimos dolore fuga quae, molestiae consectetur tenetur? Deleniti labore maiores explicabo vel doloremque!
+                </div>
+                <div class="">
+                    <img src="img/eu-24.jpg" alt="Flowers" class="p-8">
+                </div>
+            </div>
         </div>
         
      </div> <!-- body -->
