@@ -4886,6 +4886,10 @@ video {
   font-size: 2rem;
 }
 
+.text-smd {
+  font-size: 1.5rem;
+}
+
 .text-tiny {
   font-size: .875rem;
 }
@@ -4896,6 +4900,10 @@ video {
 
 .text-md {
   font-size: 3rem;
+}
+
+.text-mdlg {
+  font-size: 4rem;
 }
 
 .text-lg {
@@ -12374,6 +12382,46 @@ video {
   transition-delay: 1000ms;
 }
 
+.hover-container {
+  position: relative;
+  height: auto;
+  max-height: 100%;
+}
+
+.overlay { /* Overlay from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* height: 100%; */
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.hover-container:hover .overlay {
+  opacity: 0.7;
+}
+
+.hover-img {
+  display: block;
+  width: 100%;
+  height: inherit;
+  max-height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.hover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
@@ -16651,6 +16699,10 @@ video {
     font-size: 2rem;
   }
 
+  .sm\:text-smd {
+    font-size: 1.5rem;
+  }
+
   .sm\:text-tiny {
     font-size: .875rem;
   }
@@ -16661,6 +16713,10 @@ video {
 
   .sm\:text-md {
     font-size: 3rem;
+  }
+
+  .sm\:text-mdlg {
+    font-size: 4rem;
   }
 
   .sm\:text-lg {
@@ -28417,6 +28473,10 @@ video {
     font-size: 2rem;
   }
 
+  .md\:text-smd {
+    font-size: 1.5rem;
+  }
+
   .md\:text-tiny {
     font-size: .875rem;
   }
@@ -28427,6 +28487,10 @@ video {
 
   .md\:text-md {
     font-size: 3rem;
+  }
+
+  .md\:text-mdlg {
+    font-size: 4rem;
   }
 
   .md\:text-lg {
@@ -40183,6 +40247,10 @@ video {
     font-size: 2rem;
   }
 
+  .lg\:text-smd {
+    font-size: 1.5rem;
+  }
+
   .lg\:text-tiny {
     font-size: .875rem;
   }
@@ -40193,6 +40261,10 @@ video {
 
   .lg\:text-md {
     font-size: 3rem;
+  }
+
+  .lg\:text-mdlg {
+    font-size: 4rem;
   }
 
   .lg\:text-lg {
@@ -51949,6 +52021,10 @@ video {
     font-size: 2rem;
   }
 
+  .xl\:text-smd {
+    font-size: 1.5rem;
+  }
+
   .xl\:text-tiny {
     font-size: .875rem;
   }
@@ -51959,6 +52035,10 @@ video {
 
   .xl\:text-md {
     font-size: 3rem;
+  }
+
+  .xl\:text-mdlg {
+    font-size: 4rem;
   }
 
   .xl\:text-lg {
