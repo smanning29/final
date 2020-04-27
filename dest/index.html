@@ -10,10 +10,21 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container overflow-x-hidden">
         <div class="md:flex md:flex-row pt-8">
             <div class="bg-mailly md:max-w-half p-10" data-aos="fade" data-aos-delay="50">
-                <img src="img/eu-3.jpg" alt="France">
+                <div class="hover-container">
+                    <img src="img/eu-3.jpg" alt="France" class="hover-img">
+                    <div class="overlay bg-mailly">
+                            <div class="hover-text font-sans font-thin tracking-wide text-md">
+                                ARC DE TRIOMPHE 
+                                <div class="pt-4 text-smd italic">
+                                    PARIS, FRANCE
+                                </div>
+                                 
+                            </div>
+                    </div>
+                </div>
             </div>
             <div class="md:max-w-half text-center flex flex-row px-8">
                 <div class="w-full text-center">
@@ -100,87 +111,356 @@
             INSPIRATION
         </div>
         
-        <div class="md:grid md:grid-cols-12 pt-8" id="impressionism">
-            <div class="col-start-6 xl:col-start-7 col-end-13 bg-mailly p-10 md:p-16 xl:p-20" data-aos="fade" data-aos-delay="50">
-                <img src="img/degas-1.jpg" alt="Degas">
-            </div>
-            <div class="col-start-1 col-end-6 px-8 absolute">
-                <div class="font-serif text-md text-center md:text-mg lg:text-lg xl:text-xl text-sky italic md:text-left p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+        <div class="flex flex-col md:flex-none md:grid md:grid-cols-12 py-8" id="impressionism">
+            <div class="col-start-1 col-end-6 px-8 md:absolute order-2">
+                <div class="font-serif text-md text-center md:text-mg lg:text-lg xl:text-xl text-sky italic md:text-left p-5 md:p-2 z-10" data-aos="fade" data-aos-delay="200">
                     IMPRESSIONISM
                 </div>
-                <div class="md:w-1/3 xl:w-5/12" data-aos="fade" data-aos-delay="350">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laboriosam tempore voluptas placeat earum quod. Aspernatur, qui illum saepe rem perspiciatis beatae! Fugiat eius modi ullam praesentium veniam alias quam?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloremque eos necessitatibus nemo dicta fugit minus, autem dignissimos dolore fuga quae, molestiae consectetur tenetur? Deleniti labore maiores explicabo vel doloremque!
+                <div class="md:w-1/3 xl:w-5/12 leading-relaxed" data-aos="fade" data-aos-delay="350">
+                    Impressionism is one of my favorite western art movements. The focus on light more broadly rather than specific details really speaks to me and how I paint. I love the motion that these artists capture with intentional brush strokes and bold colors to portray changing light. Many leaders in impressionism were French, and museums such as the Musée d'Orsay have extensive impressionist collections.
+                    <div class="font-thin italic pt-2">
+                        Right: Edgar Degas, The Green Dancer
+                    </div>
                 </div>
-                <div class="md:w-1/3 xl:w-1/2" data-aos="fade" data-aos-delay="200">
-                    <img src="img/monet-3a.jpg" alt="Monet" class="p-8">
+                <div class="md:w-1/3 xl:w-5/12 p-8" data-aos="fade" data-aos-delay="200">
+                    <div class="hover-container">
+                        <img src="img/monet-3a.jpg" alt="Monet" class="hover-img">
+                            <div class="overlay bg-mailly">
+                                <div class="hover-text font-sans leading-relaxed tracking-wide px-10 text-xs lg:text-base">
+                                    <div class="font-sans font-thin tracking-wide text-tiny lg:text-smd">
+                                        CLAUDE MONET
+                                    </div>
+                                    <div class="font-serif italic font-bold text-base lg:text-sm">
+                                        Villas at Bordighera, 1884
+                                    </div>
+                                    This painting caught my eye because of the color palette. From a distance, it looks very simple and muted, but as you get closer, you can really see the variety of colors in the details and well as the texture of the brush strokes.                                </div>
+                            </div>
+                    </div>
                 </div>
+            </div>
+            <div class="col-start-6 xl:col-start-7 col-end-13 bg-mailly p-10 md:p-16 xl:p-20 order-1" data-aos="fade" data-aos-delay="50">
+                    <img src="img/degas-1.jpg" alt="Degas">
             </div>
         </div>
 
-        <div class="md:grid md:grid-cols-12 pt-64 md:pt-8" id="lifestyle">
-            <div class="col-start-1 col-end-7 bg-sky p-10 md:p-16 xl:p-20" data-aos="fade" data-aos-delay="50">
+        <div class="md:grid md:grid-cols-12 bg-fixed bg-center bg-no-repeat bg-40 bg-right-bottom" id="lifestyle">
+            <div class="col-start-1 col-end-7 bg-mailly p-10 md:p-12 xl:p-16" data-aos="fade" data-aos-delay="50">
                 <img src="img/eu-23.jpg" alt="Metro sign">
             </div>
-            <div class="w-full px-8 md:absolute">
-                <div class="font-serif text-md text-center lg:text-lg xl:text-xl text-blush italic md:text-center p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+            <div class="w-full px-8 pt-8 md:absolute">
+                <div class="font-serif text-mdlg text-center lg:text-lg xl:text-xl text-blush italic md:text-center p-5 md:p-2" data-aos="fade" data-aos-delay="200">
                     LIFESTYLE
                 </div>
             </div>
             <div class="col-start-7 col-end-13 px-8">
-                <div class="md:pt-20 lg:pt-32 xl:pt-40" data-aos="fade" data-aos-delay="350">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laboriosam tempore voluptas placeat earum quod. Aspernatur, qui illum saepe rem perspiciatis beatae! Fugiat eius modi ullam praesentium veniam alias quam?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloremque eos necessitatibus nemo dicta fugit minus, autem dignissimos dolore fuga quae, molestiae consectetur tenetur? Deleniti labore maiores explicabo vel doloremque!
+                <div class="md:pt-32 lg:pt-40 xl:pt-48 leading-relaxed" data-aos="fade" data-aos-delay="350">
+                    While staying in France, we tried to adopt some of the parisian lifestyle into ours. Every morning, we walked from our apartment to the local bakery to pick up the most delicious fresh-baked bread and croissants. For dinner, we would sit and socialize for hours on the covered outdoor patios of bistros. Although most of what we visited was just “tourist” stuff, the ideals of the french lifestyle felt very inspiring.
                 </div>
-                <div class="md:flex md:flex-row">
-                    <img src="img/eu-18.jpg" alt="Bike" class="p-8" data-aos="fade" data-aos-delay="200">
+                <div class="md:w-10/12 p-8">
+                    <div class="hover-container">
+                        <img src="img/eu-18.jpg" alt="Bike" class="hover-img" data-aos="fade" data-aos-delay="200">
+                        <div class="overlay bg-mailly">
+                                <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                    A bike parked on a bridge over the Seine. I snapped this shot as a glimpse into parisian life. Bikes provide ideal transportation for European city dwellers. This picture has even inspired some paintings already.                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center w-full font-sans font-thin tracking-wider text-sm py-8" data-aos="fade" data-aos-delay="0">
+            PLACES
+        </div>
+
+        <div class="flex flex-col md:flex-none md:grid md:grid-cols-12 bg-fixed bg-bottom bg-no-repeat md:bg-50 md:bg-left-bottom" style="background-image: url(img/paris-map-06.svg)" id="paris">
+            <div class="col-start-1 col-end-7 px-8 order-2 md:order-1">
+                <div class="font-serif text-mdlg text-center md:text-lg lg:text-xl xl:text-2xl text-blush italic p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+                    PARIS
+                </div>
+                <div class="bg-mailly p-8 leading-relaxed" data-aos="fade" data-aos-delay="350">
+                    I had always dreamed of visiting Paris, and it did not disappoint. Every inch of this city is filled with culture. Art is not just limited to the museums, but can also be found all over the city in the form of street art. Flowers grow in window boxes and around beautiful and historical buildings. People from all walks of life come to visit this city, and for good reason.                
+                    <div class="font-thin italic pt-2">
+                        Right: Statue featuring street art from Invader
+                    </div>
+                </div>
+                <div class="" data-aos="fade" data-aos-delay="200">
+                    <img src="img/eu-32a.jpg" alt="Paris" class="p-8">
+                </div>
+            </div>
+            <div class="col-start-7 col-end-13 bg-mailly p-10 md:p-16 xl:p-20 order-1 md:order-2" data-aos="fade" data-aos-delay="50">
+                <img src="img/eu-11.jpg" alt="Statue">
+            </div>
+        </div>
+
+        <div class="md:grid md:grid-cols-12 md:pt-8" id="versailles">
+            <div class="col-start-1 col-end-7 bg-mailly p-10 md:p-16 xl:p-20" data-aos="fade" data-aos-delay="50">
+                <img src="img/eu-10.jpg" alt="Painting">
+            </div>
+            <div class="w-full px-8 absolute">
+                <div class="font-serif text-mdlg text-center lg:text-lg xl:text-xl text-sky italic md:text-center p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+                    VERSAILLES
+                </div>
+            </div>
+            <div class="col-start-7 col-end-13 px-8 pt-40">
+                <div class="font-thin italic">
+                    Left: Art from an installation hosted in the Grand Trianon at Versailles.
+                </div>
+                <div class="w-full p-8" data-aos="fade" data-aos-delay="200">
+                    <div class="hover-container md:w-3/4">
+                        <img src="img/eu-24.jpg" alt="Flowers" class="hover-img">
+                            <div class="overlay bg-mailly">
+                                <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                    The Palace of Versailles itself was so crowded that we were not able to go inside, but we did spend a morning wandering the gardens, which was a lovely experience. These are some of the many flowers blooming the gardens.                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="w-full p-8" data-aos="fade" data-aos-delay="300">
+                    <div class="hover-container md:w-3/4">
+                        <img src="img/eu-9.jpg" alt="Statues" class="hover-img">
+                            <div class="overlay bg-mailly">
+                                <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                    The gardens of Versailles are filled with statues of mythical figures. There are 221 statues in the gardens alone. This is one of the marble statues from the garden, of a male figure carrying a female figure.                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+
+        <div class="md:flex md:flex-row pt-20 pb-8">
+            <div class="md:max-w-half text-center flex flex-row px-8">
+                <div class="w-full text-center">
+                    <div class="font-script text-2xl text-blush text-center p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+                        Spain
+                    </div>
+                    <div class="font-serif text-sm lg:text-smd xl:text-md text-clay pt-10 text-center md:text-right" data-aos="fade" data-aos-delay="350">
+                       CITIES AND ART INSPIRED BY NATURE
+                    </div>
+                </div>
+            </div>
+            <div class="bg-mailly md:max-w-half p-10" data-aos="fade" data-aos-delay="50">
+                <div class="hover-container">
+                    <img src="img/eu-29.jpg" alt="Spain" class="hover-img">
+                    <div class="overlay bg-mailly">
+                            <div class="hover-text font-sans font-thin tracking-wide text-md">
+                                CASA MILA
+                                <div class="pt-4 text-smd italic">
+                                    BARCELONA, SPAIN
+                                </div>
+                                 
+                            </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="text-center w-full font-sans font-thin tracking-wider text-sm pt-8" data-aos="fade" data-aos-delay="0">
-            PLACES
+            INSPIRATION
         </div>
 
-        <div class="md:grid md:grid-cols-12 pt-8" id="paris">
-            <div class="col-start-1 col-end-7 px-8">
-                <div class="font-serif text-md text-center md:text-lg lg:text-xl xl:text-2xl text-sky italic p-5 md:p-2" data-aos="fade" data-aos-delay="200">
-                    PARIS
-                </div>
-                <div class="" data-aos="fade" data-aos-delay="350">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laboriosam tempore voluptas placeat earum quod. Aspernatur, qui illum saepe rem perspiciatis beatae! Fugiat eius modi ullam praesentium veniam alias quam?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloremque eos necessitatibus nemo dicta fugit minus, autem dignissimos dolore fuga quae, molestiae consectetur tenetur? Deleniti labore maiores explicabo vel doloremque!
-                </div>
-                <div class="" data-aos="fade" data-aos-delay="200">
-                    <img src="img/eu-32.jpg" alt="Paris" class="p-8">
-                </div>
-            </div>
-            <div class="col-start-7 col-end-13 bg-blush p-10 md:p-16 xl:p-20" data-aos="fade" data-aos-delay="50">
-                <img src="img/eu-11.jpg" alt="Statue">
-            </div>
-        </div>
-
-        <div class="md:grid md:grid-cols-12 pt-8" id="versailles">
+        <div class="md:grid md:grid-cols-12 pt-8" id="architecture">
             <div class="col-start-1 col-end-7 bg-mailly p-10 md:p-16 xl:p-20" data-aos="fade" data-aos-delay="50">
-                <img src="img/eu-10.jpg" alt="Painting">
+                <img src="img/eu-12.jpg" alt="Casa Mila Guardians">
             </div>
-            <div class="w-full px-8 absolute">
-                <div class="font-serif text-md text-center lg:text-lg xl:text-xl text-blush italic md:text-center p-5 md:p-2" data-aos="fade" data-aos-delay="200">
-                    VERSAILLES
+            <div class="w-full px-8 md:absolute">
+                <div class="font-serif text-md text-center lg:text-lg xl:text-xl text-peri italic md:text-center p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+                    ANTONI GAUDI
                 </div>
             </div>
             <div class="col-start-7 col-end-13 px-8">
-                <div class="pt-20 lg:pt-32 xl:pt-40" data-aos="fade" data-aos-delay="350">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur laboriosam tempore voluptas placeat earum quod. Aspernatur, qui illum saepe rem perspiciatis beatae! Fugiat eius modi ullam praesentium veniam alias quam?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloremque eos necessitatibus nemo dicta fugit minus, autem dignissimos dolore fuga quae, molestiae consectetur tenetur? Deleniti labore maiores explicabo vel doloremque!
+                <div class="md:pt-20 lg:pt-32 xl:pt-40 leading-relaxed" data-aos="fade" data-aos-delay="350">
+                    Gaudi is the catalan modernist architect known for his incredible works in Barcelona. He creates intricate and unique buildings inspired by the shapes and forms created by nature. Exploring and experiencing Gaudi’s architecture has really helped me think about how to incorporate more nature-inspired elements into my art in new ways.
+                    <div class="font-thin italic pt-2">
+                        Left: Guardians, on the rooftop of Casa Mila
+                    </div>
                 </div>
-                <div class="" data-aos="fade" data-aos-delay="200">
-                    <img src="img/eu-24.jpg" alt="Flowers" class="p-8">
+                <div class="">
+                    <img src="img/golden-spiral-08.svg" alt="Golden Spiral" class="p-8 md:w-10/12" data-aos="fade" data-aos-delay="200">
+                </div>
+            </div>
+        </div>
+
+        <div class="md:flex md:flex-row bg-blush">
+            <div class="md:w-1/3" data-aos="fade" data-aos-delay="100">
+                <div class="hover-container p-8">
+                    <img src="img/eu-30.jpg" alt="Gaudi" class="hover-img">
+                        <div class="overlay bg-mailly">
+                            <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                Inside Casa Mila, a private residence designed by Gaudi. The building is designed as a constant curve, and shows great examples of Gaudi’s emphasis on natural forms. At first controversial, the rooftop guardians are now a postcard symbol of Barcelona.
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="md:w-1/3" data-aos="fade" data-aos-delay="200">
+                <div class="hover-container p-8">
+                    <img src="img/eu-36.jpg" alt="Gaudi" class="hover-img">
+                        <div class="overlay bg-mailly">
+                            <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                The Sagrada Familia, the most famous of Gaudi’s works, pictured with construction. Gaudi heavily incorporated biblical themes with nature, designing the interior of the church to feel like a modern forest full of trees. The church is planned to be completed in 2030.
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="md:w-1/3" data-aos="fade" data-aos-delay="300">
+                <div class="hover-container p-8">
+                    <img src="img/eu-38.jpg" alt="Gaudi" class="hover-img">
+                        <div class="overlay bg-mailly">
+                            <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                A mosaic lizard from Park Guell, one of the more famous statues found in the park. This park incorporates nature not only in the architecture, but also in lush and expansive gardens.
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="md:grid md:grid-cols-12 bg-fixed bg-right-bottom bg-no-repeat md:bg-50 md:bg-left-bottom" style="background-image: url(img/dali.png)" id="dali">
+
+            <div class="col-start-6 xl:col-start-7 col-end-13 bg-mailly p-10 md:p-16 md:py-20 xl:p-20 xl:py-24" data-aos="fade" data-aos-delay="50">
+                <img src="img/eu-6.jpg" alt="Dali">
+            </div>
+            <div class="col-start-1 col-end-6 px-8 pt-8 absolute">
+                <div class="font-serif text-md text-center md:text-mg lg:text-lg xl:text-xl text-clay italic md:text-left p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+                    SURREALISM
+                </div>
+                <div class="md:w-1/3 xl:w-5/12 bg-mailly p-4" data-aos="fade" data-aos-delay="350">
+                    Surrealism is my favorite western art movement. The emphasis on dream-like and absurd objects to create illogical and unnerving scenes fascinates me. We visited Figures, the home town of Salvador Dali and home to his self-curated museum, which was my favorite museum we visited. This museum is surrealism at its finest - it is confusing, nonsensical, and every inch from floor to ceiling is intentional art.
+                    <div class="font-thin italic pt-2">
+                        Right: Dali, The Daughter of the West Wind, painted on a ceiling
+                    </div>
+                </div>
+                <div class="md:w-1/3 xl:w-5/12 p-8" data-aos="fade" data-aos-delay="200">
+                    <div class="hover-container">
+                        <img src="img/eu-15.jpg" alt="Dali" class="hover-img">
+                        <div class="overlay bg-mailly">
+                                <div class="hover-text font-sans leading-relaxed tracking-wide px-10 text-xs lg:text-base">
+                                    <div class="font-sans font-thin tracking-wide text-tiny lg:text-smd">
+                                        SALVADOR DALI
+                                    </div>
+                                    <div class="font-serif italic font-bold text-base lg:text-sm">
+                                        Mythology: Argus
+                                    </div>
+                                    This is a sketch of Dali’s, he has many of them displayed in the hallways of his museum. This one caught my eye because of all the eyes - Dali uses eyes a lot in his works, and I find them very interesting subjects. In this, he uses them on the tail of a peacock, which puts the eyes in interesting positions.                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="text-center w-full font-sans font-thin tracking-wider text-sm py-8" data-aos="fade" data-aos-delay="0">
+            PLACES
+        </div>
+
+
+        <div class="flex flex-col bg-fixed bg-100 bg-center bg-no-repeat bg-contain" style="background-image: url(img/eu-17.jpg)" id="barcelona">
+            <div class="w-100 px-8 py-40">
+                <div class="font-serif text-mdlg text-center md:text-lg lg:text-xl xl:text-2xl text-mailly italic p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+                    BARCELONA
+                </div>
+            </div>
+            <div class="bg-sky75" data-aos="fade">
+                <div class="flex flex-row">
+                    <div class="md:w-1/4" data-aos="fade" data-aos-delay="100">
+                        <div class="hover-container p-8">
+                            <img src="img/eu-7.jpg" alt="Gaudi" class="hover-img">
+                                <div class="overlay bg-mailly">
+                                    <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                        A mosaic lizard from Park Guell, one of the more famous statues found in the park. This park incorporates nature not only in the architecture, but also in lush and expansive gardens.
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/4" data-aos="fade" data-aos-delay="200">
+                        <div class="hover-container p-8">
+                            <img src="img/eu-8.jpg" alt="Gaudi" class="hover-img">
+                                <div class="overlay bg-mailly">
+                                    <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                        A mosaic lizard from Park Guell, one of the more famous statues found in the park. This park incorporates nature not only in the architecture, but also in lush and expansive gardens.
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/4" data-aos="fade" data-aos-delay="300">
+                        <div class="hover-container p-8">
+                            <img src="img/eu-31.jpg" alt="Gaudi" class="hover-img">
+                                <div class="overlay bg-mailly">
+                                    <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                        A mosaic lizard from Park Guell, one of the more famous statues found in the park. This park incorporates nature not only in the architecture, but also in lush and expansive gardens.
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/4" data-aos="fade" data-aos-delay="400">
+                        <div class="hover-container p-8">
+                            <img src="img/eu-14.jpg" alt="Gaudi" class="hover-img">
+                                <div class="overlay bg-mailly">
+                                    <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                        A mosaic lizard from Park Guell, one of the more famous statues found in the park. This park incorporates nature not only in the architecture, but also in lush and expansive gardens.
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col bg-fixed bg-100 bg-center bg-no-repeat bg-contain" style="background-image: url(img/eu-26.jpg)" id="madrid">
+            <div class="w-100 px-8 py-40">
+                <div class="font-serif text-mdlg text-center md:text-lg lg:text-xl xl:text-2xl text-mailly italic p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+                    MADRID
+                </div>
+            </div>
+            <div class="bg-mailly75" data-aos="fade">
+                <div class="flex flex-row">
+                    <div class="md:w-1/4" data-aos="fade" data-aos-delay="100">
+                        <div class="hover-container p-8">
+                            <img src="img/eu-4.jpg" alt="Gaudi" class="hover-img">
+                                <div class="overlay bg-mailly">
+                                    <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                        A mosaic lizard from Park Guell, one of the more famous statues found in the park. This park incorporates nature not only in the architecture, but also in lush and expansive gardens.
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/4" data-aos="fade" data-aos-delay="200">
+                        <div class="hover-container p-8">
+                            <img src="img/eu-5.jpg" alt="Gaudi" class="hover-img">
+                                <div class="overlay bg-mailly">
+                                    <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                        A mosaic lizard from Park Guell, one of the more famous statues found in the park. This park incorporates nature not only in the architecture, but also in lush and expansive gardens.
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/4" data-aos="fade" data-aos-delay="300">
+                        <div class="hover-container p-8">
+                            <img src="img/eu-21.jpg" alt="Gaudi" class="hover-img">
+                                <div class="overlay bg-mailly">
+                                    <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                        A mosaic lizard from Park Guell, one of the more famous statues found in the park. This park incorporates nature not only in the architecture, but also in lush and expansive gardens.
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/4" data-aos="fade" data-aos-delay="400">
+                        <div class="hover-container p-8">
+                            <img src="img/eu-13.jpg" alt="Gaudi" class="hover-img">
+                                <div class="overlay bg-mailly">
+                                    <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                        A mosaic lizard from Park Guell, one of the more famous statues found in the park. This park incorporates nature not only in the architecture, but also in lush and expansive gardens.
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         
-     </div> <!-- body -->
+        
+     </div> <!-- container -->
 
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
      <script>
