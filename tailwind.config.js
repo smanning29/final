@@ -15,7 +15,7 @@ module.exports = {
       script: ['sheila', 'cursive'],
       serif: ['didot', 'serif'],
       sans: ['quasimoda', 'sans-serif'],
-      body: ['Graphik', 'sans-serif'],
+      body: ['quasimoda', 'sans-serif'],
     },
     borderWidth: {
       default: '0px',
