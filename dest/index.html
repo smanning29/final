@@ -7,12 +7,19 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.typekit.net/hzn5qzj.css">
-    <title>Document</title>
+
+    <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" href="favicon.ico">
+    <title>Travel</title>
 </head>
 <body>
-    <div class="container overflow-x-hidden">
+    <div class="container overflow-x-hidden overflow-y-scroll">
         <div class="md:flex md:flex-row pt-8">
-            <div class="bg-mailly md:max-w-half p-10" data-aos="fade" data-aos-delay="50">
+            <div class="bg-mailly md:max-w-half p-5 md:p-10" data-aos="fade" data-aos-delay="50">
                 <div class="hover-container">
                     <img src="img/eu-3.jpg" alt="France" class="hover-img">
                     <div class="overlay bg-mailly">
@@ -28,7 +35,7 @@
             </div>
             <div class="md:max-w-half text-center flex flex-row px-8">
                 <div class="w-full text-center">
-                    <div class="font-script text-2xl text-blush text-center p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+                    <div class="font-script text-xl sm:text-2xl text-blush text-center pt-5 sm:p-5 md:p-2" data-aos="fade" data-aos-delay="200">
                         France
                     </div>
                     <div class="font-serif text-sm lg:text-md xl:text-mdlg text-sky p-0 text-center md:text-left" data-aos="fade" data-aos-delay="350">
@@ -46,9 +53,9 @@
                         <img src="img/monet-3.jpg" alt="Monet" class="hover-img">
                         <a href="#impressionism">
                             <div class="overlay bg-mailly">
-                                <div class="hover-text font-sans font-thin tracking-wide text-smd">
+                                <div class="hover-text font-sans font-thin tracking-wide text-sm sm:text-smd">
                                     INSPIRATION
-                                    <div class="font-serif italic font-bold text-sm">
+                                    <div class="font-serif italic font-bold text-base sm:text-sm">
                                         Impressionism
                                     </div>
                                 </div>
@@ -61,9 +68,9 @@
                         <img src="img/eu-32.jpg" alt="France" class="hover-img">
                         <a href="#paris">
                             <div class="overlay bg-mailly">
-                                <div class="hover-text font-sans font-thin tracking-wide text-smd">
+                                <div class="hover-text font-sans font-thin tracking-wide text-sm sm:text-smd">
                                     PLACES
-                                    <div class="font-serif italic font-bold text-sm">
+                                    <div class="font-serif italic font-bold text-base sm:text-sm">
                                         Paris
                                     </div>
                                 </div>
@@ -79,9 +86,9 @@
                         <img src="img/eu-23.jpg" alt="France" class="hover-img">
                         <a href="#lifestyle">
                             <div class="overlay bg-mailly">
-                                <div class="hover-text font-sans font-thin tracking-wide text-smd">
+                                <div class="hover-text font-sans font-thin tracking-wide text-base sm:text-smd">
                                     INSPIRATION
-                                    <div class="font-serif italic font-bold text-sm">
+                                    <div class="font-serif italic font-bold text-base sm:text-sm">
                                         Lifestyle
                                     </div>
                                 </div>
@@ -94,9 +101,9 @@
                         <img src="img/eu-9.jpg" alt="France" class="hover-img">
                         <a href="#versailles">
                             <div class="overlay bg-mailly">
-                                <div class="hover-text font-sans font-thin tracking-wide text-smd">
+                                <div class="hover-text font-sans font-thin tracking-wide text-sm sm:text-smd">
                                     PLACES
-                                    <div class="font-serif italic font-bold text-sm">
+                                    <div class="font-serif italic font-bold text-base sm:text-sm">
                                         Versailles
                                     </div>
                                 </div>
@@ -113,8 +120,8 @@
         </div>
         
         <div class="flex flex-col md:flex-none md:grid md:grid-cols-12 py-8" id="impressionism">
-            <div class="col-start-1 col-end-6 px-8 md:absolute order-2">
-                <div class="font-serif text-md text-center md:text-mg lg:text-lg xl:text-xl text-sky italic md:text-left p-5 md:p-2 z-10" data-aos="fade" data-aos-delay="200">
+            <div class="col-start-1 col-end-6 md:px-8 md:absolute order-2">
+                <div class="font-serif text-sm text-center sm:text-mdlg lg:text-lg xl:text-xl text-sky italic md:text-left p-5 md:p-2 z-10" data-aos="fade" data-aos-delay="200">
                     IMPRESSIONISM
                 </div>
                 <div class="md:w-1/3 xl:w-5/12 leading-relaxed" data-aos="fade" data-aos-delay="350">
@@ -148,20 +155,20 @@
             <div class="col-start-1 col-end-7 bg-mailly p-10 md:p-12 xl:p-16" data-aos="fade" data-aos-delay="50">
                 <img src="img/eu-23.jpg" alt="Metro sign">
             </div>
-            <div class="w-full px-8 pt-8 md:absolute">
-                <div class="font-serif text-mdlg text-center lg:text-lg xl:text-xl text-blush italic md:text-center p-5 md:p-2" data-aos="fade" data-aos-delay="200">
-                    LIFESTYLE
+            <div class="w-full md:px-8 pt-8 md:absolute">
+                <div class="font-serif text-md sm:text-mdlg text-center lg:text-lg xl:text-xl text-blush italic md:text-center py-2 sm:p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+                LIFESTYLE
                 </div>
             </div>
             <div class="col-start-7 col-end-13 px-8">
                 <div class="md:pt-32 lg:pt-40 xl:pt-48 leading-relaxed" data-aos="fade" data-aos-delay="350">
                     While staying in France, we tried to adopt some of the parisian lifestyle into ours. Every morning, we walked from our apartment to the local bakery to pick up the most delicious fresh-baked bread and croissants. For dinner, we would sit and socialize for hours on the covered outdoor patios of bistros. Although most of what we visited was just “tourist” stuff, the ideals of the french lifestyle felt very inspiring.
                 </div>
-                <div class="md:w-10/12 p-8">
+                <div class="md:w-10/12 p-2 pt-5 sm:p-8">
                     <div class="hover-container">
                         <img src="img/eu-18.jpg" alt="Bike" class="hover-img" data-aos="fade" data-aos-delay="200">
                         <div class="overlay bg-mailly">
-                                <div class="hover-text font-sans leading-relaxed tracking-wide px-10">
+                                <div class="hover-text font-sans text-tiny sm:text-base sm:leading-relaxed tracking-wide px-5 md:px-10">
                                     A bike parked on a bridge over the Seine. I snapped this shot as a glimpse into parisian life. Bikes provide ideal transportation for European city dwellers. This picture has even inspired some paintings already.                                </div>
                             </div>
                     </div>
@@ -174,7 +181,7 @@
         </div>
 
         <div class="flex flex-col md:flex-none md:grid md:grid-cols-12 bg-fixed bg-bottom bg-no-repeat md:bg-50 md:bg-left-bottom" style="background-image: url(img/paris-map-06.svg)" id="paris">
-            <div class="col-start-1 col-end-7 px-8 order-2 md:order-1">
+            <div class="col-start-1 col-end-7 md:px-8 order-2 md:order-1">
                 <div class="font-serif text-mdlg text-center md:text-lg lg:text-xl xl:text-2xl text-blush italic p-5 md:p-2" data-aos="fade" data-aos-delay="200">
                     PARIS
                 </div>
@@ -197,8 +204,8 @@
             <div class="col-start-1 col-end-7 bg-mailly p-10 md:p-8 lg:p-16 xl:p-20" data-aos="fade" data-aos-delay="50">
                 <img src="img/eu-10.jpg" alt="Painting">
             </div>
-            <div class="w-full px-8 md:absolute">
-                <div class="font-serif text-mdlg text-center lg:text-lg xl:text-xl text-sky italic md:text-center p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+            <div class="w-full md:px-8 md:absolute">
+                <div class="font-serif text-md sm:text-mdlg text-center lg:text-lg xl:text-xl text-sky italic md:text-center p-5 md:p-2" data-aos="fade" data-aos-delay="200">
                     VERSAILLES
                 </div>
             </div>
@@ -206,11 +213,11 @@
                 <div class="font-thin italic">
                     Pictured: Art from an installation hosted in the Grand Trianon at Versailles.
                 </div>
-                <div class="w-full p-8" data-aos="fade" data-aos-delay="200">
+                <div class="w-full p-4 md:p-8" data-aos="fade" data-aos-delay="200">
                     <div class="hover-container lg:w-3/4">
                         <img src="img/eu-24.jpg" alt="Flowers" class="hover-img">
                             <div class="overlay bg-mailly">
-                                <div class="hover-text font-sans lg:leading-relaxed tracking-wide px-2 lg:px-10 font-xs">
+                                <div class="hover-text font-sans text-xs sm:leading-relaxed tracking-wide px-5 md:px-10">
                                     The Palace of Versailles itself was so crowded that we were not able to go inside, but we did spend a morning wandering the gardens, which was a lovely experience. These are some of the many flowers blooming the gardens.                                </div>
                             </div>
                     </div>
@@ -231,18 +238,18 @@
 
         
 
-        <div class="md:flex md:flex-row pt-20 pb-8">
-            <div class="md:max-w-half text-center flex flex-row px-8">
+        <div class="flex flex-col md:flex-row pt-8 md:pt-20 md:pb-8">
+            <div class="md:max-w-half text-center flex flex-row pt-2 md:pt-0 px-8 md:order-1 order-2">
                 <div class="w-full text-center">
-                    <div class="font-script text-2xl text-blush text-center p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+                    <div class="font-script text-xl sm:text-2xl text-blush text-center py-2 sm:p-5 md:p-2" data-aos="fade" data-aos-delay="200">
                         Spain
                     </div>
-                    <div class="font-serif text-sm lg:text-smd xl:text-md text-clay py-10 text-center md:text-right" data-aos="fade" data-aos-delay="350">
+                    <div class="font-serif text-sm lg:text-smd xl:text-md text-clay py-5 pt-10 md:py-10 text-center md:text-right" data-aos="fade" data-aos-delay="350">
                        CITIES AND ART INSPIRED BY NATURE
                     </div>
                 </div>
             </div>
-            <div class="bg-mailly md:max-w-half p-10" data-aos="fade" data-aos-delay="50">
+            <div class="bg-mailly md:max-w-half p-5 md:p-10 md:order-2 order-1" data-aos="fade" data-aos-delay="50">
                 <div class="hover-container">
                     <img src="img/eu-29.jpg" alt="Spain" class="hover-img">
                     <div class="overlay bg-mailly">
@@ -336,8 +343,8 @@
             <div class="col-start-1 col-end-7 bg-mailly p-10 md:p-16 xl:p-20" data-aos="fade" data-aos-delay="50">
                 <img src="img/eu-12.jpg" alt="Casa Mila Guardians">
             </div>
-            <div class="w-full px-8 md:absolute">
-                <div class="font-serif text-md text-center lg:text-lg xl:text-xl text-peri italic md:text-center p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+            <div class="w-full md:px-8 md:absolute">
+                <div class="font-serif text-md text-center lg:text-lg xl:text-xl text-peri italic md:text-center py-2 pt-5 sm:p-5 md:p-2" data-aos="fade" data-aos-delay="200">
                     ANTONI GAUDI
                 </div>
             </div>
@@ -389,11 +396,11 @@
 
 
         <div class="flex flex-col md:grid md:grid-cols-12 bg-fixed bg-right-bottom bg-no-repeat md:bg-50 md:bg-left-bottom" style="background-image: url(img/dali.png)" id="dali">
-            <div class="col-start-1 col-end-6 px-8 pt-8 md:absolute order-2 md:order-1">
+            <div class="col-start-1 col-end-6 md:px-8 pt-8 md:absolute order-2 md:order-1">
                 <div class="font-serif text-md text-center md:text-mg lg:text-lg xl:text-xl text-clay italic md:text-left p-5 md:p-2" data-aos="fade" data-aos-delay="200">
                     SURREALISM
                 </div>
-                <div class="md:w-1/3 xl:w-5/12 bg-mailly p-4" data-aos="fade" data-aos-delay="350">
+                <div class="md:w-1/3 xl:w-5/12 bg-mailly p-4 leading-relaxed md:leading-normal" data-aos="fade" data-aos-delay="350">
                     Surrealism is my favorite western art movement. The emphasis on dream-like and absurd objects to create illogical and unnerving scenes fascinates me. We visited Figures, the home town of Salvador Dali and home to his self-curated museum, which was my favorite museum we visited. This museum is surrealism at its finest - it is confusing, nonsensical, and every inch from floor to ceiling is intentional art.
                     <div class="font-thin italic pt-2">
                         Pictured: Dali's The Daughter of the West Wind, painted on a ceiling
@@ -426,8 +433,8 @@
 
 
         <div class="flex flex-col bg-fixed bg-center bg-no-repeat bg-contain" style="background-image: url(img/eu-17.jpg)" id="barcelona">
-            <div class="w-100 px-8 py-10 md:py-40">
-                <div class="font-serif text-mdlg text-center md:text-lg lg:text-xl xl:text-2xl text-mailly italic p-5 md:p-2" data-aos="fade" data-aos-delay="200">
+            <div class="w-100 md:px-8 py-10 md:py-40">
+                <div class="font-serif text-md sm:text-mdlg text-center md:text-lg lg:text-xl xl:text-2xl text-mailly italic p-5 md:p-2" data-aos="fade" data-aos-delay="200">
                     BARCELONA
                 </div>
             </div>
@@ -477,7 +484,7 @@
         </div>
 
         <div class="flex flex-col bg-fixed bg-100 bg-center bg-no-repeat bg-contain" style="background-image: url(img/eu-26.jpg)" id="madrid">
-            <div class="w-100 px-8 py-10 md:py-40">
+            <div class="w-100 md:px-8 py-10 md:py-40">
                 <div class="font-serif text-mdlg text-center md:text-lg lg:text-xl xl:text-2xl text-mailly italic p-5 md:p-2" data-aos="fade" data-aos-delay="200">
                     MADRID
                 </div>

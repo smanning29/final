@@ -3,8 +3,10 @@ module.exports = {
     container: {
       center: true,
       padding: '1rem',
+      maxWidth: '100vw'
     },
     screens: {
+      xs: '375px',
       sm: '640px',
       md: '768px',
       lg: '1024px',
@@ -79,10 +81,7 @@ module.exports = {
         '40': '40%',
         '50': '50%',
         '75': '75%',
-
-      }
-
-      
+      }  
     }
   },
   variants: {
